@@ -1,0 +1,94 @@
+
+/* Css files (Like this one) are where all the designing of the website is kept. */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(250, 250, 250, 0.998);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #1a1818;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(31, 49, 247, 0.168);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1204aaad;
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Raleway", sans-serif;
+    color: black
+}
+
+body {
+    display: inline;
+    font-family: "Raleway", sans-serif;
+    background-color: #c6d4e6;
+    
+}
+
+:root {
+    color: #d5e0e7;
+}
+
+.add-btn {
+    height: 40px;
+    width: 150px;
+    color: #FFFFFF;
+    background-color: #03d603;
+    border: 1px solid #029902;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-btn:hover {
+    color: #029902;
+    background-color: #00ff002f;
+    border: 1px solid #029902;
+    border-radius: 5px;
+}
+
+.add-btn:focus {
+    color: #029902;
+    background-color: #00ff002f;
+    border: 1px solid #029902;
+    border-radius: 5px;
+}
+
+.form-feild {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #99AAB5;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #2C2F33;
+}
+
+.box1{
+  width: 600px;
+  border: 15px;
+  padding: 50px;
+  margin: 5px;
+  font-size: larger;
+  color: black
+  
+}

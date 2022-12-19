@@ -1,0 +1,81 @@
+{% extends "template.html" %} {% block body %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Hobbies and Extras</b></h1>
+    
+    </div>
+  </header>
+
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/JbXSWwli8Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div class="w3-container w3-white">
+        <p><b>Music</b></p>
+        <p> I developed a love for music at a late age in college. My favorite instruments to play are the piano and bass.</p>.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/I200i0WdFiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div class="w3-container w3-white">
+        <p><b>Video Contest</b></p>
+        <p>This was a rough draft that won the Jetstream company video contest. Most of the filming was done by me. This was before the pandemic, and unfortunately due to the pandemict this work project was not furthered developed</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/320542011_470727365006278_8730901757993342391_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=-YYvsx-fHNgAX-7P1k7&_nc_ht=scontent-iad3-1.xx&oh=00_AfD0lJ6RZv5nQq6spOY5SlVPzUCI7ZeGtosilpQrDV4wUA&oe=63A26866" alt="Norway" style="width:100%" height="300px">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/320637249_701757271292196_7720439004780811194_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=HqdrBeqNAoAAX9QfOSP&_nc_ht=scontent-iad3-1.xx&oh=00_AfB4eBR9A6vmZguGL909RNl3M5kfic5SEg-uUFFokZmjxQ&oe=63A302FA" alt="Norway" style="width:100%" height="300px">
+
+      <div class="w3-container w3-white">
+        <p><b>Coaching</b></p>
+        <P> I have coached Highschool football for Piedmont Highschool in Monroe, NC and Bell Gardens Highschool in California. I also coached ESPORTS for XP League in Lake Norman. Instruction and design are integral to my code.</P>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+  
+  </div>
+  </footer>
+  
+ 
+<!-- End page content -->
+</div>
+
+
+
+</body>
+</html>
+
+
+{% endblock %}

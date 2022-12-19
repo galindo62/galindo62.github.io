@@ -1,0 +1,41 @@
+<html>
+<!-- This is the template file. Any code written here will automatically be carried onto the files that extend from this file(eg: home.html, account.html) -->
+<head>
+    <style>
+        body {
+          background-image: url('https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/319669858_5713239448770309_758066578472721167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=H3du_Oy02koAX9x0I_O&_nc_ht=scontent-atl3-1.xx&oh=00_AfBm6qB2JtUhO_P4D3EgiaGVB6Dc4vmgGxU0lNnyCnR-lw&oe=639B2A4D');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>The Galindo Project</title>
+
+    <div class="topnav">
+        <a  href="/home">Home</a>
+        <a  href="/timeline">Timeline</a>
+        <a  href="/extras">Extras</a>
+      </div>
+</head>
+
+<body>
+
+    
+  
+
+    <div>
+        <center>
+            <h1 style="font-family:verdana;">The Galindo Project</h1>
+            <a href="https://www.linkedin.com/in/alejandro-galindo-a9130369/"><img src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/319736863_5714879311939656_5894050659740006132_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=3fygTg8jIesAX97Anhc&_nc_ht=scontent-atl3-1.xx&oh=00_AfC9jOshbXpieIGukENsMi6Ukt1TAtxCgDrX6bm1hiWGtQ&oe=639ADF00" alt="linked in" style="width:60px;height:18px;"></a>
+            <a href="mailto:Galindo61291@gmail.com">Galindo61291@Eastern.edu</a>
+        </center>
+
+    </div>
+    <div>
+        <center>
+            {% block body %} {% endblock %}
+        </center>
+    </div>
+</body>
+
+</html>
