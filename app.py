@@ -6,12 +6,12 @@ app = Flask(__name__) #initialising flask
 
 @app.route("/") #defining the routes for the home() funtion (Multiple routes can be used as seen here)
 @app.route("/home")
-def home():
+def index():
     return render_template("index.html") #rendering our home.html contained within /templates
 
 @app.route("/")
 @app.route("/projects")
-def news():
+def projects():
     return render_template("projects.html")
 
 @app.route("/")
